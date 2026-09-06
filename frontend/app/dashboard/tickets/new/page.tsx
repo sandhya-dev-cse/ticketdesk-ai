@@ -3,7 +3,7 @@
 import { FormEvent, useState } from "react";
 import { useRouter } from "next/navigation";
 
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "https://ticketdesk-ai.onrender.com";
 
 export default function NewTicketPage() {
   const router = useRouter();

@@ -54,7 +54,7 @@ export default function SignupPage() {
 
     try {
       const response = await fetch(
-        "http://127.0.0.1:8000/auth/signup",
+        "https://ticketdesk-ai.onrender.com/auth/signup",
         {
           method: "POST",
           headers: {
