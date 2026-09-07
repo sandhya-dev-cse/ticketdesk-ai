@@ -98,7 +98,7 @@ async def create_invite(
     await db.invites.insert_one(invite)
 
     # Development invite link
-    invite_link = f"http://localhost:3000/invite/{token}"
+    invite_link = f"https://ticketdeskai.vercel.app/invite/{token}"
 
     print("\n========================================")
     print("NEW INVITE CREATED")
